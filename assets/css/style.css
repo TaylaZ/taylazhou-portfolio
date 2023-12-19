@@ -380,7 +380,7 @@ body.active { overflow: hidden; }
 main { overflow-x: hidden; }
 
 
-.about { padding-block: var(--section-padding); margin-top: 5px; }
+.about { padding-block: var(--section-padding); margin-top: 10px; }
 
 
 .about .btn {
@@ -539,6 +539,8 @@ main { overflow-x: hidden; }
 .video-card {
   border-radius: 12px;
   overflow: hidden;
+
+
 }
 
 
@@ -713,6 +715,11 @@ main { overflow-x: hidden; }
 
   .project-list > li:first-child { column-span: all; }
 
+   .video-card {
+    width: 512px; 
+    height: 288px; 
+  }
+
 }
 
 
@@ -737,7 +744,10 @@ main { overflow-x: hidden; }
   .about .btn-secondary { margin-bottom: 0; }
 
 
-
+  .video-card {
+    width: 640px; 
+    height: 360px; 
+  }
 }
 
 
@@ -935,6 +945,10 @@ main { overflow-x: hidden; }
   .scroll-down { right: -80px; }
 
   .about-banner { max-width: 450px; }
+  .video-card {
+    width: 740px;
+    height: 415px;
+  }
 
 
 }

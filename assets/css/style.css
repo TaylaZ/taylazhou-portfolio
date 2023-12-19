@@ -380,7 +380,7 @@ body.active { overflow: hidden; }
 main { overflow-x: hidden; }
 
 
-.about { padding-block: var(--section-padding); margin-top: 10px; }
+.about { padding-block: var(--section-padding); margin-top: 5px; }
 
 
 .about .btn {

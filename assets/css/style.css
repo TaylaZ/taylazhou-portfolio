@@ -694,11 +694,11 @@ main { overflow-x: hidden; }
 
 
 
-@media (min-width: 550px) {
+@media (min-width: 400px) {
 
 
   .container {
-    max-width: 550px;
+    max-width: 400px;
     margin-inline: auto;
   }
 
@@ -716,8 +716,8 @@ main { overflow-x: hidden; }
   .project-list > li:first-child { column-span: all; }
 
    .video-card {
-    width: 512px; 
-    height: 288px; 
+    width: 396px; 
+    height: 223px; 
   }
 
 }

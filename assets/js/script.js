@@ -153,3 +153,10 @@ document.addEventListener('DOMContentLoaded', function () {
       event.target.style.color = 'var(--color-secondary)';
     }, 1500); 
   }
+
+  function downloadCV() {
+    const link = document.createElement('a');
+    link.href = './assets/Tayla_Zhou_Resume.pdf'; 
+    link.download = 'Tayla_Zhou_Resume.pdf';
+    link.click();
+  }

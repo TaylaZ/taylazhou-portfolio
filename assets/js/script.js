@@ -32,13 +32,7 @@ navToggleBtn.addEventListener("click", function () {
 
 });
 
-const hireMeBtn = document.getElementById('hireMeBtn');
 const contactSection = document.getElementById('contact');
-
-hireMeBtn.addEventListener('click', function() {
-
-  contactSection.scrollIntoView({ behavior: 'smooth' });
-});
 
 
 

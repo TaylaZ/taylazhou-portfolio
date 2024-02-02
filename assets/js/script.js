@@ -77,13 +77,13 @@ if (localStorage.getItem("theme") === "light_theme") {
   themeToggleBtn.classList.add("active");
   document.body.classList.remove("dark_theme");
   document.body.classList.add("light_theme");
-  // Set the initial light mode GIF
+
   aboutBanner.querySelector("img").src = "./assets/images/Square_2.gif";
 } else {
   themeToggleBtn.classList.remove("active");
   document.body.classList.remove("light_theme");
   document.body.classList.add("dark_theme");
-  // Set the initial dark mode GIF
+
   aboutBanner.querySelector("img").src = "./assets/images/Square_1.gif";
 }
 
@@ -136,16 +136,15 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function copyEmail(event) {
-    event.preventDefault();
-    const emailAddress = 'taylazhou@gmail.com'; 
-    navigator.clipboard.writeText(emailAddress); 
-    
+    event.preventDefault();  
     event.target.style.color = 'var(--pink)';
-    event.target.textContent = 'Email Address Copied!';
+    event.target.textContent = 'Email Opened';
+
     setTimeout(() => {
-      event.target.textContent = emailAddress; 
+      event.target.textContent = 'taylazhou@gmail.com'; 
       event.target.style.color = 'var(--color-secondary)';
     }, 1500); 
+    window.open('mailto:taylazhou@gmail.com', '_blank');
   }
 
   function downloadCV() {
